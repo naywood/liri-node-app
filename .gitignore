@@ -1,4 +1,8 @@
 keys.js
 node_modules
+package-lock.json
+/package-lock.json
+package-lock.json/
+
 .DS_Store
 .env
