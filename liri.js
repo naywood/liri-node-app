@@ -1,11 +1,11 @@
 //importing everything needed
 require("dotenv").config();
 var Spotify = require("node-spotify-api");
-var keys = require("./keys");
+var key = require("./key");
 var axios = require("axios");
 var moment = require("moment");
 var fs = require("fs");
-var spotify = new Spotify(keys.spotify);
+var spotify = new Spotify(key.spotify);
 
 //all of the functions
 
